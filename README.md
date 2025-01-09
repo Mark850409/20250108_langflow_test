@@ -1,14 +1,3 @@
----
-title: AI部署到zeabur
-created: 2025-01-09 12:28:16Z
-tags:
-  - AI
-  - Zeabur
-  - 人工智慧
-  - LINEBOT
-  - LangChain
-  - LangFlow
----
 # 簡介
 建立`LangFlow`聊天機器人，並與`zeabur`平台串接
 
@@ -28,27 +17,27 @@ tags:
 
 https://zeabur.com/zh-TW
 
-![](https://markweb.idv.tw/uploads/2025-01/202501091835364.png)
+![](https://github.com/Mark850409/20250108_langflow_test/blob/master/202501091835364.png)
 
 請點擊`建立專案`
-![](https://markweb.idv.tw/uploads/2025-01/202501091836881.png)
+![](https://github.com/Mark850409/20250108_langflow_test/blob/master/202501091836881.png)
 
 
->[!NOTE] 小提示
->免費用戶將於24小時以後，自動刪除該主機，若要正式上線，請付費
+> [!NOTE]
+> 免費用戶將於24小時以後，自動刪除該主機，若要正式上線，請付費
 
 這邊測試使用，可選擇`Free Trail`
-![](https://markweb.idv.tw/uploads/2025-01/202501091837955.png)
+![](https://github.com/Mark850409/20250108_langflow_test/blob/master/202501091837955.png)
 
 這邊可選擇要部署的方式，若有版控需求，建議選擇`Github`
-![](https://markweb.idv.tw/uploads/2025-01/202501091901872.png)
+![](https://github.com/Mark850409/20250108_langflow_test/blob/master/202501091901872.png)
 
 這邊請查看是否會有網域，如果沒有要`手動新增`
-![](https://markweb.idv.tw/uploads/2025-01/202501091902570.png)
+![](https://github.com/Mark850409/20250108_langflow_test/blob/master/202501091902570.png)
 
 
 
-![](https://markweb.idv.tw/uploads/2025-01/202501091907037.png)
+![](https://github.com/Mark850409/20250108_langflow_test/blob/master/202501091907037.png)
 
 
 ## LineBotAPI架設
@@ -384,15 +373,15 @@ CHANNEL_ACCESS_TOKEN = <你的Line後台申請的CHANNEL_ACCESS_TOKEN>
 CHANNEL_SECRET = <你的Line後台申請的CHANNEL_SECRET>
 ```
 
-![](https://markweb.idv.tw/uploads/2025-01/202501091920295.png)
+![](https://github.com/Mark850409/20250108_langflow_test/blob/master/202501091920295.png)
 
 點擊`部署`
-![](https://markweb.idv.tw/uploads/2025-01/202501091920300.png)
+![](https://github.com/Mark850409/20250108_langflow_test/blob/master/202501091920300.png)
 
 ## LINE DEVELOPERS設定Webhook URL
 
 填入剛才架設好的API網址，路由必須要指向`callback`
-![](https://markweb.idv.tw/uploads/2025-01/202501091924751.png)
+![](https://github.com/Mark850409/20250108_langflow_test/blob/master/202501091924751.png)
 
 點擊`verify`，出現`Success`代表串接成功
-![](https://markweb.idv.tw/uploads/2025-01/202501091925814.png)
+![](https://github.com/Mark850409/20250108_langflow_test/blob/master/202501091925814.png)
